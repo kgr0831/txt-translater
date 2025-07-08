@@ -3,7 +3,7 @@ from google.cloud import translate_v2 as translate
 import json
 import time 
 
-GOOGLE_APPLICATION_CREDENTIALS = "tidy-tract-434706-d1-bde2489a7281.json" #토큰 파일명
+GOOGLE_APPLICATION_CREDENTIALS = "파일명.json" #토큰 파일명
 
 INPUT_FOLDER = "input_texts"  # 번역할 파일
 OUTPUT_FOLDER = "translated_texts_google"  # 번역된 파일
